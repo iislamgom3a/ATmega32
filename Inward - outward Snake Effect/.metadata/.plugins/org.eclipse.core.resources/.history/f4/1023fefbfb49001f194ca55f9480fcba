@@ -1,0 +1,36 @@
+/*
+ * 	main.c
+ *  Created on: Jul 24, 2024
+ *  Author: iisla
+ *  Description: snake effect using 8 LEDS
+ */
+
+#include <stdint.h>
+#include <util/delay.h>
+#include <avr/io.h>
+#define de 100
+int main(void){
+	for (int i =0; i< 8; i++) DDRA |= (1<<i);
+
+	while(1)
+	{
+		PORTA |= (1<<3);
+		PORTA |= (1<<4);
+		_delay_ms(de);
+		PORTA |= (1<<2);
+		PORTA |= (1<<5);
+		_delay_ms(de);
+		PORTA |= (1<<1);
+		PORTA |= (1<<6);
+		_delay_ms(de);
+		PORTA |= (1<<0);
+		PORTA |= (1<<7);
+		_delay_ms(de);
+		PORTA &= ~(1 << i);
+		_delay_ms(de);
+
+	}
+	return 0;
+}
+
+

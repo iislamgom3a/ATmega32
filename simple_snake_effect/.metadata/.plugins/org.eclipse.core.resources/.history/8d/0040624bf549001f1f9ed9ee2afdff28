@@ -1,0 +1,23 @@
+/*
+ * 	main.c
+ *  Created on: Jul 24, 2024
+ *  Author: iisla
+ *  Description: control A LED using atmega32 MCU
+ */
+
+#include <stdint.h>
+#include <util/delay.h>
+#include <avr/io.h>
+
+int main(void){
+	// set pin 4 is output
+	DDRA |= (1<<4);
+	_delay_ms(800);
+	// set pin 1 to high
+	PORTA |= (1<<4);
+	_delay_ms(800);
+	while(1);
+	return 0;
+}
+
+

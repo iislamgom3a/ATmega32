@@ -1,0 +1,343 @@
+23:33:19 **** Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:29: error: 'i' undeclared (first use in this function)
+../main.c:29: error: (Each undeclared identifier is reported only once
+../main.c:29: error: for each function it appears in.)
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:33:29 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4400 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:33:56 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4400 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:45 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4400 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:38:57 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4400 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:39:09 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4400 bytes (13.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:41:48 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5586 bytes (17.0% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:42:18 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5586 bytes (17.0% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:44:31 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3710 bytes (11.3% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:45:27 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3726 bytes (11.4% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:47:55 **** Incremental Build of configuration Debug for project pattern ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: pattern.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,pattern.map -mmcu=atmega32 -o "pattern.elf"  ./main.o   
+Finished building target: pattern.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S pattern.elf  >"pattern.lss"
+Finished building: pattern.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 pattern.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    3718 bytes (11.3% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

@@ -1,0 +1,30 @@
+/*
+ * 	main.c
+ *  Author: Islam Gomaa
+ *  Description: pettern using 8 LEDS
+ */
+
+#include <stdint.h>
+#include <util/delay.h>
+#include <avr/io.h>
+#define de 140
+int main(void){
+	for (int i =0; i< 8; i++) DDRA |= (1<<i);
+
+	while(1)
+	{
+		// Turn on LEDs from the outside to the center
+		for (int i = 0; i < 4; i++) {
+			PORTA |= (1 << (3 - i)) | (1 << (4 + i));
+			_delay_ms(de);
+		}
+		// Turn off LEDs from outside to the center
+		for (int i = 0; i < 4; i++) {
+			PORTA &= ~((1 << (i)) | (1 << (7 - i)));
+			_delay_ms(de);
+		}
+	}
+	return 0;
+}
+
+

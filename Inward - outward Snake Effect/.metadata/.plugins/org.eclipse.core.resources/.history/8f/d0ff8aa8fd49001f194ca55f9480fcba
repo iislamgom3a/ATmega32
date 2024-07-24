@@ -1,0 +1,31 @@
+/*
+ * 	main.c
+ *  Created on: Jul 24, 2024
+ *  Author: iisla
+ *  Description: snake effect using 8 LEDS
+ */
+
+#include <stdint.h>
+#include <util/delay.h>
+#include <avr/io.h>
+#define de 140
+int main(void){
+	for (int i =0; i< 8; i++) DDRA |= (1<<i);
+
+	while(1)
+	{
+		// Turn on LEDs in snake pattern
+		for (int i = 0; i < 4; i++) {
+			PORTA |= (1 << i) | (1 << (7 - i));
+			_delay_ms(de);
+		}
+		// Turn off LEDs in snake pattern
+		for (int i = 0; i < 4; i++) {
+			PORTA &= ~((1 << i) | (1 << (7 - i)));
+			_delay_ms(de);
+		}
+	}
+	return 0;
+}
+
+
