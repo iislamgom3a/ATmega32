@@ -36,7 +36,7 @@ This project creates an "inward-outward" snake effect on 8 LEDs connected to POR
 
 ## Demo
 
-![Watch the demo](https://drive.google.com/file/d/1UacAsqN2WpqKe2ky-VAulf6F7H3QG0mF/view?usp=sharing)
+![Watch the demo](https://drive.google.com/file/d/1UacAsqN2WpqKe2ky-VAulf6F7H3QG0mF/view?usp=drive_link)
 
 ## Author
 
