@@ -6,18 +6,22 @@
 
 #include <stdint.h>
 #include <util/delay.h>
-#include <avr/io.h>
+
+#define DDRA  *((uint8_t*)0x3A)
+#define PORTA  *((uint8_t*)0x3B)
+#define PINA *((volatile uint8_t*)0x39)
+
 #define de 100
 int main(void){
-	for (int i =0; i< 8; i++) DDRA |= (1<<i);
-
+	DDRA =0xff;
+	uint8_t i =0;;
 	while(1){
-		for(int i = 0; i < 8; i++ ){
+		for(i = 0; i < 8; i++ ){
 			PORTA |= (1<<i);
 			_delay_ms(de);
 		}
 
-		for(int i = 0; i < 8; i++ ){
+		for(i = 0; i < 8; i++ ){
 			PORTA &= ~(1 << i);
 			_delay_ms(de);
 		}
